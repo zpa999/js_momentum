@@ -2,10 +2,9 @@ const loginUsername = document.querySelector("#login_username");
 const loginForm = document.querySelector("#login-form");
 const loginInput = document.querySelector("#login-form_input");
 
-const images = ["0.jpg", "1.jpg", "2.jpg"];
+const images = ["0.jpg", "1.jpg", "2.jpg", "3.jpg"];
 const chosenImage = images[Math.floor(Math.random() * images.length)];
-console.log(chosenImage);
-document.body.style.backgroundImage = "url(2.jpg)";
+document.body.style.backgroundImage = "url(" + `${chosenImage}` + ")";
 
 let username;
 
