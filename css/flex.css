@@ -1,0 +1,15 @@
+.container {
+  display: flex; /* display: inline-flex; */
+  flex-direction: column; /* 배치 방향 설정 row column row-reverse column-reverse*/
+  flex-wrap: wrap-reverse; /* 줄넘김 처리 설정 nowrap wrap; wrap-reverse*/
+
+  justify-content: center; /* 메인축 방향 정렬 flex-start flex-end center space-between pace-around pace-evenly*/
+  align-items: center; /* 수직축 방향 정렬  stretch flex-start flex-end center baseline*/
+
+  background-color: orange;
+  height: 100px;
+}
+.container > div {
+  background-color: green;
+  margin: 3px;
+}
